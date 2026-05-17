@@ -18,12 +18,13 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 header>h1{
     padding-top: 50px;
     font-family: var(--fonte2); 
     font-variant: small-caps;
-    font-size: 10vw;
+    font-size: 8vw;
 }
 header>p{
     padding-bottom: 50px;
@@ -38,13 +39,20 @@ a{
 a:hover{
     text-decoration: underline;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 1em;
 }
 section>p{
     padding-bottom:2em;
@@ -78,4 +86,5 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
